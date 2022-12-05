@@ -51,6 +51,12 @@
          .btn:hover {
           background-color: RoyalBlue;
          }
+
+         text {
+         background-color: none;
+         color: white;
+         }
+
          </style>
 
          <h2> </h2>
@@ -59,20 +65,9 @@
          <button class="btn" style="width:100%"><a href="https://nightly.link/PlusPlusMC/Lantern/workflows/build/master/lantern.zip"</a><i class="fa fa-download"></i> Download</button>
         <div class="space"></div>
         <div class="mdui-container">
-            
+            <center><text>NOTE: Beta may update anytime.</text></center>
+            <center><text>Site is in construction.</text></center>
         </div>
-
-        function fn3() {
-            var r = Math.floor(Math.random() * 256);
-            var g = Math.floor(Math.random() * 256);
-            var b = Math.floor(Math.random() * 256);
-            return "rgb(" + r + ',' + g + ',' + b + ")";
-        }
-
-        function rainbow() {
-            $(".img").css("filter", "brightness(1.1) drop-shadow(0 0 " + fn3() + ")");
-            setTimeout("rainbow();", 2000);
-        }
     </script>
 </body>
 </html>
